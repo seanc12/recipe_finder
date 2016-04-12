@@ -1,11 +1,11 @@
 Capybara.default_driver = :poltergeist
 
-Capybara.app_host = "http://localhost:3000"
+Capybara.app_host = "https://fork2food-seanc12.c9users.io"
 
 describe "Recipes App" do
-  it "displays 'Kahlúa-Spiked' when request parameter 'search' is mocha" do
+  it "displays 'Mocha Brownies' when request parameter 'search' is mocha" do
     visit "?search=mocha"
-    expect(page).to have_content 'Kahlúa-Spiked'
+    expect(page).to have_content 'Mocha Brownies'
   end
 
   it "utilizes the FOOD2FORK_SERVER_AND_PORT environment variable" do
