@@ -14,3 +14,4 @@ echo 'export FOOD2FORK_KEY = "Your API Key"' >> ~/.profile
 
 wget -O- https://toolbelt.heroku.com/install-ubuntu.sh | sh
 
+
