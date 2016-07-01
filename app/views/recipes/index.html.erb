@@ -1,6 +1,10 @@
 <h1>Searching for - <%= @search_term %></h1>
-<h3>Search using the URL</h3>
-<h3>Ex. ?search=swiss</h3>
+<h2>Search using the URL</h2>
+<h3>domain/?=search="***"</h3>
+<p>Here are some example search queries</p>
+<h4>https://intense-ocean-17203.herokuapp.com/?search=swiss</h4>
+<h4>https://intense-ocean-17203.herokuapp.com/?search=prime%20rib</h4>
+<h4>https://intense-ocean-17203.herokuapp.com/?search=gouda</h4>
 <p>Powered By Food2Fork.com</p>
 <% if (@recipes.nil? or @recipes == []) %>
 <p> <h2>No recipes found.. Sorry</h2></p>
